@@ -176,6 +176,10 @@ text-align: center;
         transition: 0.5s
     }
 
+    #about-us {
+        height: 600px;
+    }
+
 }
 
 @media screen and (max-width: 465px) {
@@ -195,9 +199,13 @@ text-align: center;
         justify-content: center;
     }
 
+    #about-us{
+        height: 400px;
+    }
+
     #about-us p {
         font-size: 100%;
-    }
+        }
 
     #quote-plate {
         font-size: 110%;
@@ -211,5 +219,11 @@ text-align: center;
         left: 30px;
         position: absolute;
         transition: 0.5s
+    }
+
+    .our-services-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 40px;
     }
 }
