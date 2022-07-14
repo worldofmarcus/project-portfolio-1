@@ -82,6 +82,7 @@ TBD
 
 **2022-07-14**
 
+- Bug: When changing to @media 950px logo isn't 100% centered. I tried to fix it by removing letter-spacing on the font awesome-symbol, it got better but didn't solve the problem fully. It look's OK but I need to check this later on in the project. 
 
 
 ### Validator Testing

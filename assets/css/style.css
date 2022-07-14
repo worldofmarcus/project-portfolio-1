@@ -23,7 +23,6 @@ h2 {
     letter-spacing: 5px;
 }
 
-
 #logo {
     font-size: 100%;
     float: left;
@@ -35,6 +34,10 @@ h2 {
 
 #logo:hover {
     opacity: 0.5;
+}
+
+.fa-solid {
+    letter-spacing: 0;
 }
 
 /* navigation */
@@ -70,8 +73,28 @@ a {
     }
 
     #logo {
+        margin: 0 auto;
+        padding: 0;
         width: 100%;
         display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    #navigation {
+        display: flex;
+        clear: left;
+        justify-content: center;
+        font-size: 65%;
+    }
+
+    #logo {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        font-size: 80%;
         justify-content: center;
     }
 }
