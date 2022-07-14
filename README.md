@@ -1,108 +1,117 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CREATIVE DREAMS
 
-Welcome USER_NAME,
+Creative Dreams is a site that target people who are in need of help with professional recording, mixing and mastering within the music and sound context.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Today almost everyone can record music and sounds in their own home but Creative Dreams wants to make it easy for the users to get in contact and start working with a professional studio.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## External Users Goal
+The site users are in need of help with professional recording, mixing and mastering of sound/music.
 
-## Gitpod Reminders
+## Site Owners Goal
+The goal of the site is to reach new customers and clients within the context of recording, mixing and mastering of sound and music. The site will help reaching out to potential new customers and clients which wil increase the inflow of warm leads. The outcome will be strenghtened branding and increased revenue.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Early Mockup
+![Early Mockup](/mockup/img/creative_dreams_mockup_v0.9.png)
 
-`python3 -m http.server`
+## Features
+The features on this site will help the users to understand what Creative Dreams offer and in an easy way initiate contact. General examples of features are navigation bar, contact form, about section, 'what we do'-section, examples of clients.
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+ __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The navigation section will help the user to, in an easy way, navigate on the page.
 
-A blue button should appear to click: _Make Public_,
+  - All sections on the site are gathererd on the landing page (*index.html*) and the navigation bar, that is fully responsive, includes anchor links to *home*, *about*, *our services*, *portfolio* and *contact*. 
+ 
+![Nav Bar](TBD) TBD - Might include reference to the specific project file.
 
-Another blue button should appear to click: _Open Browser_.
+- __Hero Image__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The landing page includes a photograph with an overlay text box including an inspirational quote by Elizabeth Gilbert (*A creative life is an amplified life, it's a bigger life, a happier life, an expanded life, and a hell of a lot more interesting life"*).
 
-To log into the Heroku toolbelt CLI:
+  - This section will get the users attention and inspire to learn more about Creative Dreams.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Landing Page](TBD) TBD
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __About (This Is What We Do) Section__
 
-------
+    - The about section will introduce the user to who Creative Dreams are, a high-end studio with one clear mission, *to deliver top quality recordings, mixing and mastering solutions* to our customers.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![About](TBD) TBD
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- __Our Services__
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - This section will introduce the user to what services Creative Dreams offers (*recording*, *mixing*, *mastering* and *brainstorming*).
+  - This section will make the user interested in Creative Dreams products and trigger them to learn more and initiate contact.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Our Services](TBD) TBD
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- __Portfolio__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    - A portfolio is intended to showcase a collection of high-end work. This is Creative Dreams portfolio and here the user will find examples of work that has been done in the past.
+    - The user will get information of which clients Creative Dreams have worked with.
+    - The portfolio is of great importance to make the user (*potential customer*) feel comfortable and safe to initiate contact with Creative Dreams.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Portfolio](TBD) TBD
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __Contact__ 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - The contact section includes a form where the user can include *First name*, *Last name*, *E-mail*, *Topic (Recording, Mixing, Mastering, Brainstorming*) and the possibility to sign-up for a *newsletter*. The form includes *submit* and a *reset* button. The aim is to make a very straight-forward form to make it easy for the user to initate contact.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - The contact section includes an embedded Google Map which shows were Creative Dreams are located.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  - The contact section includes social media-links to *Facebook*, *Youtube*, *Instagram*, *Spotify* and *Apple Music*.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Contact](TBD) TBD
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- __The Footer__ 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  - The footer section includes copyright information and links to *Facebook*, *Youtube*, *Instagram*, *Spotify* and *Apple Music*.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - It's important that the social media-links are included in the footer even if they also are included in the contact session. The reason is to highlight the importance of the social media interaction to the user.
 
-------
+![Footer](TBD) TBD
 
-## FAQ about the uptime script
+### Features Left to Implement
 
-**Why have you added this script?**
+TBD
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Testing
 
-**How will this affect me?**
+TBD
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Validator Testing
 
-**So….?**
+- HTML
+  - Testing will be made through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  
+- CSS
+  - Testing will be made through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Unfixed Bugs
 
-**Can I opt out?**
+TBD
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Deployment
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+TBD
 
-**Anything more?**
+## Credits
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+TBD
 
----
+### Content
 
-Happy coding!
+TBD
+
+### Media
+
+TBD
+
+## Other General Project Advice
+
+TBD
