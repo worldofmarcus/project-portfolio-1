@@ -71,7 +71,13 @@ a {
     overflow: hidden;
     position: relative;
     background: url('../img/index_hero.png');
- }
+    opacity: 0.9;
+    transition: 0.5s
+    }
+
+#hero:hover {
+    opacity: 1.0;
+}
 
 @media screen and (max-width: 950px) {
     #navigation {
