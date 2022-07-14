@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -97,7 +102,7 @@ a {
 /* about us */
 #about-us {
     height: 400px;
-    width: 100%
+    width: 100%;
 }
 
 #about-us h1 {
@@ -109,6 +114,35 @@ a {
     text-align: center;
     letter-spacing: 2px;
     transition: 0.5s;
+}
+
+/* our services */
+
+#our-services{
+    height: 600px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+#our-services h1{
+    text-align: center;
+}
+
+.our-services-grid-element h2{
+text-align: center;
+}
+
+.our-services-grid-element{
+    margin: 10px;
+    text-align: justify;
+}
+
+.our-services-grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
 }
 
 /* responsive code */
