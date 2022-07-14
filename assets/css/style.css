@@ -51,6 +51,7 @@ h2 {
     float: right;
     margin-right: 5px;
     line-height: 80px;
+    transition: 0.5s;
 }
 
 a {
@@ -65,6 +66,7 @@ a {
     color: rgb(255, 255, 255);
 }
 
+/* hero */
 #hero {
     height: 400px;
     width: 100%;
@@ -73,25 +75,43 @@ a {
     background: url('../img/index_hero.png') no-repeat center center;
     opacity: 0.9;
     transition: 0.5s
-    }
+}
 
 #hero:hover {
     opacity: 1.0;
 }
 
-#quote-plate{
-font-size: 180%;
-font-family: Oswald, sans-serif;
-text-transform: uppercase;
-color: rgba(255, 255, 255, 0.7);
-letter-spacing: 4px;
-width: 800px;
-height: 250px;
-top: 120px;
-left: 80px;
-position: absolute;
+#quote-plate {
+    font-size: 180%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 4px;
+    width: 800px;
+    height: 250px;
+    top: 120px;
+    left: 80px;
+    position: absolute;
 }
 
+/* about us */
+#about-us {
+    height: 400px;
+    width: 100%
+}
+
+#about-us h1 {
+    text-align: center;
+}
+
+#about-us p {
+    font-size: 120%;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+/* responsive code */
 
 @media screen and (max-width: 950px) {
     #navigation {
@@ -107,6 +127,21 @@ position: absolute;
         display: flex;
         justify-content: center;
     }
+
+    #quote-plate {
+        font-size: 150%;
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 4px;
+        width: 400px;
+        height: 250px;
+        top: 100px;
+        left: 50px;
+        position: absolute;
+        transition: 0.5s
+    }
+
 }
 
 @media screen and (max-width: 465px) {
@@ -124,5 +159,23 @@ position: absolute;
         display: flex;
         font-size: 70%;
         justify-content: center;
+    }
+
+    #about-us p {
+        font-size: 100%;
+    }
+
+    #quote-plate {
+        font-size: 110%;
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 4px;
+        width: 400px;
+        height: 250px;
+        top: 120px;
+        left: 30px;
+        position: absolute;
+        transition: 0.5s
     }
 }
