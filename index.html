@@ -137,12 +137,12 @@
                     <li><img height="100"
                             src="https://logos-world.net/wp-content/uploads/2021/11/Universal-Pictures-Logo-2012-present.png"
                             alt="logo of band ninedee"></li>
-                            <li><img height="100"
-                                src="https://logos-world.net/wp-content/uploads/2021/11/Universal-Pictures-Logo-2012-present.png"
-                                alt="logo of band ninedee"></li>
-                        <li><img height="100"
-                                src="https://logos-world.net/wp-content/uploads/2021/11/Universal-Pictures-Logo-2012-present.png"
-                                alt="logo of band ninedee"></li>      
+                    <li><img height="100"
+                            src="https://logos-world.net/wp-content/uploads/2021/11/Universal-Pictures-Logo-2012-present.png"
+                            alt="logo of band ninedee"></li>
+                    <li><img height="100"
+                            src="https://logos-world.net/wp-content/uploads/2021/11/Universal-Pictures-Logo-2012-present.png"
+                            alt="logo of band ninedee"></li>
 
                 </ul>
             </div>
@@ -276,14 +276,51 @@
 
         <div class="contact-us-grid">
             <div class="contact-us-grid-element">
-                <p>Feel free to contact us to get started, or to just send as a greeting!</p>
+                <p>Feel free to contact us to get started, or to just send as a greeting! Fields marked with a * are
+                    required.</p>
             </div>
 
         </div>
 
 
         <div class="contact-us-grid-element">
-            <p>Formulär</p>
+
+            <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+
+                <label for="first-name">First Name*
+                </label>
+                <input id="first-name" class="text-input" type="text" name="first_name" required>
+
+                <label for="last-name">Last Name*</label>
+                <input id="last-name" class="text-input" type="text" name="last_name" required>
+
+                <label for="email">Email Address*
+                </label>
+                <input id="email" class="text-input" type="email" name="email_address" required>
+
+                <label for="recording">Recording</label>
+                <input type="radio" id="recording" name="regarding_recording" value="recording" required>
+
+                <label for="mixing">Mixing</label>
+                <input type="radio" id="mixing" name="regarding_mixing" value="mixing" required>
+
+                <label for="mastering">Mastering</label>
+                <input type="radio" id="mastering" name="regarding_mastering" value="mastering" required>
+
+                <label for="brainstorming">Brainstorming</label>
+                <input type="radio" id="brainstorming" name="regarding_brainstorming" value="brainstorming" required>
+
+                <label for="newsletter">Sign up for newsletter</label>
+                <input type="checkbox" id="newsletter" name="sign_up_newsletter">
+
+
+                <label for="other">Other</label>
+                <textarea id="other" class="text-input" type="text" rows="10"></textarea>
+
+
+            </form>
+
+
         </div>
 
         <div class="contact-us-grid-element">
@@ -303,7 +340,11 @@
         </div>
         </div>
 
+
+
+
     </section>
+
 
     <section id="footer">
         Footer Area
