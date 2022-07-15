@@ -35,7 +35,8 @@ h2 {
     font-size: 1.9rem;
     display: flex;
     float: left;
-    margin-left: 5px;
+    margin: 5px;
+    line-height: 90px;
     opacity: 1.0;
     transition: 0.5s;
 }
@@ -58,7 +59,7 @@ h2 {
     display: inline;
     float: right;
     margin-right: 5px;
-    line-height: 65px;
+    line-height: 120px;
     transition: 0.5s;
 }
 
@@ -78,6 +79,7 @@ a {
 #hero {
     min-height: 400px;
     width: 100%;
+    
     overflow: hidden;
     position: relative;
     background: url('../img/index_hero.png') no-repeat center center;
@@ -114,13 +116,22 @@ a {
     text-align: center;
 }
 
-#about-us p {
+.about-us-grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.about-us-grid-element {
     font-size: 2rem;
     text-align: justify;
-    letter-spacing: 2px;
+    
     transition: 0.5s;
     margin: 0 15px;
 }
+
 
 /* our services */
 
@@ -144,6 +155,7 @@ a {
 
 .our-services-grid-element{
     margin: 15px;
+    font-size: 1.8rem;
     text-align: justify;
 }
 
