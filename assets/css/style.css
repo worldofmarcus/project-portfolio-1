@@ -7,13 +7,13 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
 body {
-    
+
     max-width: 1280px;
     margin: 0 auto;
     font-family: Montserrat, sans-serif;
@@ -79,7 +79,7 @@ a {
 #hero {
     min-height: 400px;
     width: 100%;
-    
+
     overflow: hidden;
     position: relative;
     background: url('../images/index_hero.png') no-repeat center center;
@@ -116,7 +116,7 @@ a {
     text-align: center;
 }
 
-.about-us-grid{
+.about-us-grid {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -127,7 +127,7 @@ a {
 .about-us-grid-element {
     font-size: 2rem;
     text-align: justify;
-    
+
     transition: 0.5s;
     margin: 0 15px;
 }
@@ -135,20 +135,20 @@ a {
 
 /* our services section */
 
-#our-services{
+#our-services {
     min-height: 550px;
     width: 100%;
     background-color: #f8f8f8;
 }
 
-#our-services h1{
+#our-services h1 {
     font-size: 3rem;
     margin: 20px 0 0 0;
     padding: 30px;
     text-align: center;
 }
 
-.our-services-grid{
+.our-services-grid {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,12 +156,12 @@ a {
     grid-gap: 40px;
 }
 
-.our-services-grid-element h2{
+.our-services-grid-element h2 {
     margin: 0 0 16px 0;
     text-align: center;
 }
 
-.our-services-grid-element{
+.our-services-grid-element {
     margin: 15px;
     font-size: 1.8rem;
     text-align: justify;
@@ -169,19 +169,19 @@ a {
 
 /* portfolio section */
 
-#portfolio{
+#portfolio {
     min-height: 550px;
     width: 100%;
-    }
+}
 
-#portfolio h1{
+#portfolio h1 {
     font-size: 3rem;
     margin: 20px 0 0 0;
     padding: 30px;
     text-align: center;
 }
 
-.portfolio-welcome{
+.portfolio-welcome {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -190,13 +190,13 @@ a {
 
 }
 
-.portfolio-welcome-element{
+.portfolio-welcome-element {
     margin: 15px;
     font-size: 2rem;
     text-align: justify;
 }
 
-.portfolio-clients{
+.portfolio-clients {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -205,19 +205,19 @@ a {
 
 }
 
-.portfolio-clients-element{
+.portfolio-clients-element {
     margin: 15px;
     font-size: 2rem;
     text-align: center;
 }
 
-.portfolio-clients-element li{
+.portfolio-clients-element li {
     list-style-type: none;
     display: inline;
 }
 
 
-.portfolio-grid{
+.portfolio-grid {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -225,12 +225,12 @@ a {
     grid-gap: 40px;
 }
 
-.portfolio-grid-element h2{
+.portfolio-grid-element h2 {
     margin: 0 0 16px 0;
     text-align: center;
 }
 
-.portfolio-grid-element{
+.portfolio-grid-element {
     margin: 15px;
     font-size: 1.8rem;
     text-align: justify;
@@ -238,8 +238,7 @@ a {
 
 /* contact us section */
 
-#contact
-{
+#contact {
     min-height: 300px;
     width: 100%;
     background-color: #f8f8f8;
@@ -251,7 +250,7 @@ a {
     text-align: center;
 }
 
-.contact-us-grid{
+.contact-us-grid {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -266,7 +265,67 @@ a {
     margin: 0 15px;
 }
 
-#address{
+.contact-form {
+    margin: 0 auto;
+    text-align: left;
+    color: rgba(26, 26, 26, .7);
+    background-color: rgba(60, 60, 60, 0.1);
+    max-width: 450px;
+    min-height: 480px;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 1.4rem;
+}
+
+
+.text-input {
+    background: transparent;
+    color: rgba(26, 26, 26, .7);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgba(26, 26, 26, .7);
+    border-radius: 5px;
+}
+
+.text-input-other {
+    background: transparent;
+    color: rgba(26, 26, 26, .7);
+    width: 100%;
+    height: 75px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgba(26, 26, 26, .7);
+    border-radius: 5px;
+}
+
+.text-input:hover,
+.text-input-other:hover {
+    border-color: #f16c6b;
+}
+
+.submit-button {
+    margin: 20px;
+    width: 40%;
+    border-radius: 2px;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    float: left;
+    margin-right: 5px;
+
+}
+
+
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+
+}
+
+
+#address {
     margin: 20px 0 0 0;
 }
 
@@ -325,13 +384,13 @@ a {
         justify-content: center;
     }
 
- /*   #about-us{
+    /*   #about-us{
         height: 400px;
     }*/
 
     #about-us p {
         font-size: 100%;
-        }
+    }
 
     #quote-plate {
         font-size: 110%;
@@ -347,7 +406,7 @@ a {
         transition: 0.5s
     }
 
-    .our-services-grid{
+    .our-services-grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 40px;
