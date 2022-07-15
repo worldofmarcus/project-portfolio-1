@@ -49,7 +49,7 @@ h2 {
     letter-spacing: 0;
 }
 
-/* navigation */
+/* navigation section */
 
 .navigation li {
     font-size: 1.3rem;
@@ -75,7 +75,7 @@ a {
     color: rgb(255, 255, 255);
 }
 
-/* hero */
+/* hero section */
 #hero {
     min-height: 400px;
     width: 100%;
@@ -104,7 +104,7 @@ a {
     position: absolute;
 }
 
-/* about us */
+/* about us section */
 #about-us {
     min-height: 300px;
     width: 100%;
@@ -133,7 +133,7 @@ a {
 }
 
 
-/* our services */
+/* our services section */
 
 #our-services{
     min-height: 550px;
@@ -167,7 +167,7 @@ a {
     text-align: justify;
 }
 
-/* portfolio */
+/* portfolio section */
 
 #portfolio{
     min-height: 550px;
@@ -196,6 +196,27 @@ a {
     text-align: justify;
 }
 
+.portfolio-clients{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 40px;
+
+}
+
+.portfolio-clients-element{
+    margin: 15px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.portfolio-clients-element li{
+    list-style-type: none;
+    display: inline;
+}
+
+
 .portfolio-grid{
     margin: auto;
     display: grid;
@@ -214,6 +235,42 @@ a {
     font-size: 1.8rem;
     text-align: justify;
 }
+
+/* contact us section */
+
+#contact
+{
+    min-height: 300px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+#contact h1 {
+    font-size: 3rem;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-us-grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1 fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.contact-us-grid-element {
+    font-size: 2rem;
+    text-align: center;
+    transition: 0.5s;
+    margin: 0 15px;
+}
+
+#address{
+    margin: 20px 0 0 0;
+}
+
+
 
 
 /* responsive code */
