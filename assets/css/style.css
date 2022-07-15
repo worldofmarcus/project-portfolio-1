@@ -144,8 +144,16 @@ a {
 #our-services h1{
     font-size: 3rem;
     margin: 20px 0 0 0;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
+}
+
+.our-services-grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
 }
 
 .our-services-grid-element h2{
@@ -159,13 +167,54 @@ a {
     text-align: justify;
 }
 
-.our-services-grid{
+/* portfolio */
+
+#portfolio{
+    min-height: 550px;
+    width: 100%;
+    }
+
+#portfolio h1{
+    font-size: 3rem;
+    margin: 20px 0 0 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.portfolio-welcome{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 40px;
+
+}
+
+.portfolio-welcome-element{
+    margin: 15px;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.portfolio-grid{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 40px;
 }
+
+.portfolio-grid-element h2{
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+.portfolio-grid-element{
+    margin: 15px;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
 
 /* responsive code */
 
