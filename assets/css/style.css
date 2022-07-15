@@ -76,7 +76,7 @@ a {
 
 /* hero */
 #hero {
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -104,39 +104,46 @@ a {
 
 /* about us */
 #about-us {
-    height: 300px;
+    min-height: 300px;
     width: 100%;
 }
 
 #about-us h1 {
+    font-size: 3rem;
+    padding: 40px;
     text-align: center;
 }
 
 #about-us p {
-    font-size: 120%;
-    text-align: center;
+    font-size: 2rem;
+    text-align: justify;
     letter-spacing: 2px;
     transition: 0.5s;
+    margin: 0 15px;
 }
 
 /* our services */
 
 #our-services{
-    height: 600px;
+    min-height: 550px;
     width: 100%;
     background-color: #f8f8f8;
 }
 
 #our-services h1{
+    font-size: 3rem;
+    margin: 20px 0 0 0;
+    padding: 40px;
     text-align: center;
 }
 
 .our-services-grid-element h2{
-text-align: center;
+    margin: 0 0 16px 0;
+    text-align: center;
 }
 
 .our-services-grid-element{
-    margin: 10px;
+    margin: 15px;
     text-align: justify;
 }
 
