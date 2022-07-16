@@ -79,7 +79,6 @@ a {
 #hero {
     min-height: 400px;
     width: 100%;
-
     overflow: hidden;
     position: relative;
     background: url('../images/index_hero.png') no-repeat center center;
@@ -107,12 +106,14 @@ a {
 /* about us section */
 #about-us {
     min-height: 300px;
-    width: 100%;
+    max-width: 100%;
+    background-color: #f16c6b;
 }
 
 #about-us h1 {
-    font-size: 3rem;
-    padding: 40px;
+    font-size: 3.5rem;
+    margin: 20px 0 0 0;
+    padding: 30px;
     text-align: center;
 }
 
@@ -127,7 +128,6 @@ a {
 .about-us-grid-element {
     font-size: 2rem;
     text-align: justify;
-
     transition: 0.5s;
     margin: 0 15px;
 }
@@ -138,11 +138,12 @@ a {
 #our-services {
     min-height: 580px;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: aquamarine;
+    /*background-color: #f8f8f8;*/
 }
 
 #our-services h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 20px 0 0 0;
     padding: 30px;
     text-align: center;
@@ -153,7 +154,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 15px;
 }
 
 .our-services-grid-element h2 {
@@ -176,10 +177,11 @@ a {
 #portfolio {
     min-height: 550px;
     width: 100%;
+    background-color: #f16c6b;
 }
 
 #portfolio h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 20px 0 0 0;
     padding: 30px;
     text-align: center;
@@ -254,12 +256,14 @@ a {
 #contact {
     min-height: 1400px;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: aquamarine;
+    /*background-color: #f8f8f8;*/
 }
 
 #contact h1 {
-    font-size: 3rem;
-    padding: 40px;
+    margin: 20px 0 0 0;
+    font-size: 3.5rem;
+    padding: 30px;
     text-align: center;
 }
 
@@ -343,9 +347,10 @@ a {
 }
 
 
-.social-media-list{
+.social-media-list {
     margin: 30px 0;
 }
+
 .social-media-list>li {
     font-size: 3rem;
     margin: auto;
@@ -376,11 +381,7 @@ a {
 #copyright {
     text-align: center;
     transition: 0.5s;
-
 }
-
-
-
 
 
 /* responsive code */
@@ -391,10 +392,12 @@ a {
         display: flex;
         clear: left;
         justify-content: center;
+
     }
 
     .navigation li {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
+
     }
 
     #logo {
@@ -416,42 +419,44 @@ a {
     }
 
     #copyright {
-    font-size: 2rem;
-    
+        font-size: 2rem;
+
     }
 
 }
 
-@media screen and (max-width: 465px) {
-    .navigation {
-        display: flex;
-        clear: left;
-        justify-content: center;
-    }
-
+@media screen and (max-width: 400px) {
     .navigation li {
-        font-size: 1rem;
-    }
+        font-size: 1.1rem;
+        clear: left;
+        display: block;
 
+
+    }
 
     #logo {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        display: flex;
         font-size: 70%;
-        justify-content: center;
     }
 
-    #about-us p {
-        font-size: 100%;
+    .about-us-grid-element,
+    .our-services-grid-element,
+    .portfolio-welcome-element,
+    .contact-us-grid-element {
+        font-size: 1.5rem;
+    }
+
+    #about-us h1,
+    #our-services h1,
+    #portfolio h1,
+    #contact h1 {
+        font-size: 2.5rem;
     }
 
     #quote-plate {
-        font-size: 110%;
-        width: 400px;
+        font-size: 100%;
+        width: 350px;
         height: 250px;
-        top: 120px;
+        top: 130px;
         left: 30px;
         transition: 0.5s
     }
@@ -464,11 +469,41 @@ a {
 
     .contact-form {
         min-height: 530px;
-
     }
+
     #copyright {
         font-size: 1.5rem;
-        
-        }
-    
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .navigation li {
+        font-size: 0.7rem;
+        display: block;
+    }
+
+    #logo {
+        font-size: 60%;
+    }
+
+    #quote-plate {
+        font-size: 100%;
+        width: 270px;
+        height: 270px;
+        top: 130px;
+        left: 30px;
+    }
+
+    .contact-form {
+        min-height: 510px;
+    }
+
+    .submit-button {
+        margin: 10px;
+    }
+
+    #copyright {
+        font-size: 1.5rem;
+    }
 }
