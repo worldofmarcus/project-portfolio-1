@@ -136,7 +136,7 @@ a {
 /* our services section */
 
 #our-services {
-    min-height: 550px;
+    min-height: 580px;
     width: 100%;
     background-color: #f8f8f8;
 }
@@ -165,6 +165,10 @@ a {
     margin: 15px;
     font-size: 1.8rem;
     text-align: justify;
+}
+
+.our-services-grid-element span{
+    font-style: italic;
 }
 
 /* portfolio section */
@@ -201,8 +205,6 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 40px;
-
 }
 
 .portfolio-clients-element {
@@ -211,10 +213,10 @@ a {
     text-align: center;
 }
 
+
 .portfolio-clients-element li {
     list-style-type: none;
     display: inline;
-    padding: 0 15px;
     opacity: 0.4;
     transition: 0.5s
 }
@@ -222,7 +224,6 @@ a {
 .portfolio-clients-element li:hover {
     opacity: 0.7;
 }
-
 
 .portfolio-grid {
     margin: auto;
@@ -246,6 +247,7 @@ a {
     font-size: 1.8rem;
     text-align: center;
 }
+
 
 /* contact us section */
 
@@ -281,8 +283,8 @@ a {
     text-align: left;
     color: rgba(26, 26, 26, .7);
     background-color: rgba(60, 60, 60, 0.1);
-    max-width: 450px;
-    min-height: 480px;
+    max-width: 480px;
+    min-height: 500px;
     padding: 30px;
     border-radius: 15px;
     font-size: 1.4rem;
@@ -308,9 +310,17 @@ a {
     border-radius: 5px;
 }
 
+.radio-input{
+    margin: 0 10px 0 0;
+}
+
 .text-input:hover,
 .text-input-other:hover {
     border-color: #f16c6b;
+}
+
+.contact-form hr{
+    margin: 6px 0 3px 0;
 }
 
 .submit-button {
@@ -319,19 +329,18 @@ a {
     border-radius: 2px;
     padding: 15px;
     text-align: center;
-    fo nt-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    font-size: 100%;
+    background-color: rgba(60, 60, 60, 0.1);
+    color: rgba(26, 26, 26, .7);
     float: left;
     margin-right: 5px;
 
 }
 
 .submit-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: rgba(26, 26, 26, .7);
+    color: rgb(255, 255, 255);
 }
-
 
 
 /* footer section */
