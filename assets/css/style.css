@@ -425,7 +425,7 @@ a {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 640px) {
     .navigation li {
         font-size: 1.1rem;
         clear: left;
@@ -476,10 +476,10 @@ a {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
 
     .navigation li {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         display: block;
     }
 
