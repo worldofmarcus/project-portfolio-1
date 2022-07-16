@@ -52,7 +52,7 @@ h2 {
 /* navigation section */
 
 .navigation li {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     list-style-type: none;
@@ -167,7 +167,7 @@ a {
     text-align: justify;
 }
 
-.our-services-grid-element span{
+.our-services-grid-element span {
     font-style: italic;
 }
 
@@ -238,7 +238,7 @@ a {
     text-align: center;
 }
 
-.portfolio-media-description{
+.portfolio-media-description {
     text-align: justify;
 }
 
@@ -310,7 +310,7 @@ a {
     border-radius: 5px;
 }
 
-.radio-input{
+.radio-input {
     margin: 0 10px 0 0;
 }
 
@@ -319,7 +319,7 @@ a {
     border-color: #f16c6b;
 }
 
-.contact-form hr{
+.contact-form hr {
     margin: 6px 0 3px 0;
 }
 
@@ -343,6 +343,25 @@ a {
 }
 
 
+.social-media-list{
+    margin: 30px 0;
+}
+.social-media-list>li {
+    font-size: 3rem;
+    margin: auto;
+    list-style-type: none;
+    display: inline;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.social-media-list>li:hover {
+    opacity: 1;
+}
+
+
+
+
 /* footer section */
 
 .footer-content {
@@ -355,39 +374,31 @@ a {
 }
 
 #copyright {
-    margin-left: 30px;
-    float: left;
-
-}
-
-#social-media-bar {
-    margin-right: 30px;
-    float: right;
-
-}
-
-.social-media-list>li {
-    list-style-type: none;
-    display: inline;
-    opacity: 0.7;
-    padding: 0 15px;
+    text-align: center;
     transition: 0.5s;
+
 }
 
-.social-media-list>li:hover {
-    opacity: 1;
-}
+
+
+
 
 /* responsive code */
 
 @media screen and (max-width: 950px) {
+
     .navigation {
         display: flex;
         clear: left;
         justify-content: center;
     }
 
+    .navigation li {
+        font-size: 1.1rem;
+    }
+
     #logo {
+        font-size: 90%;
         margin: 0 auto;
         padding: 0;
         width: 100%;
@@ -397,19 +408,17 @@ a {
 
     #quote-plate {
         font-size: 150%;
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.7);
-        letter-spacing: 4px;
         width: 400px;
         height: 250px;
         top: 100px;
         left: 50px;
-        position: absolute;
         transition: 0.5s
     }
 
-
+    #copyright {
+    font-size: 2rem;
+    
+    }
 
 }
 
@@ -418,8 +427,12 @@ a {
         display: flex;
         clear: left;
         justify-content: center;
-        font-size: 65%;
     }
+
+    .navigation li {
+        font-size: 1rem;
+    }
+
 
     #logo {
         margin: 0 auto;
@@ -430,25 +443,16 @@ a {
         justify-content: center;
     }
 
-    /*   #about-us{
-        height: 400px;
-    }*/
-
     #about-us p {
         font-size: 100%;
     }
 
     #quote-plate {
         font-size: 110%;
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.7);
-        letter-spacing: 4px;
         width: 400px;
         height: 250px;
         top: 120px;
         left: 30px;
-        position: absolute;
         transition: 0.5s
     }
 
@@ -457,4 +461,14 @@ a {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 40px;
     }
+
+    .contact-form {
+        min-height: 530px;
+
+    }
+    #copyright {
+        font-size: 1.5rem;
+        
+        }
+    
 }
