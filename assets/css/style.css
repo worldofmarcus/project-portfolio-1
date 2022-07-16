@@ -237,16 +237,20 @@ a {
     text-align: center;
 }
 
+.portfolio-media-description{
+    text-align: justify;
+}
+
 .portfolio-grid-element {
     margin: 15px;
     font-size: 1.8rem;
-    text-align: justify;
+    text-align: center;
 }
 
 /* contact us section */
 
 #contact {
-    min-height: 350px;
+    min-height: 1400px;
     width: 100%;
     background-color: #f8f8f8;
 }
@@ -328,9 +332,7 @@ a {
     color: #f16c6b;
 }
 
-#address {
-    margin: 20px 0 0 0;
-}
+
 
 /* footer section */
 
