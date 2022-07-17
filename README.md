@@ -108,7 +108,9 @@ TBD
 
 ## Credits
 
-TBD
+**Video 1** Shutterstock: https://www.shutterstock.com/sv/video/clip-1058308858-rock-band-guitarists-drummer-performing-concert-night
+
+**Video 2** Shutterstock: https://www.shutterstock.com/sv/video/clip-1058126545-four-man-rock-band-lead-singer-guitarists
 
 ### Content
 
