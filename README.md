@@ -82,6 +82,11 @@ TBD
 
 **2022-07-14**
 
+- Bug: Hover effect on logo not working properly on Safari.
+- Bug: Challenges with portfolio section. Grid system not responsive. I think it has to do with the video content. Need a solution to that.
+
+**2022-07-16**
+
 - Bug: When changing to @media 950px and and below the logo isn't 100% centered. I tried to fix it by removing letter-spacing on the font awesome-symbol, it got better but didn't solve the problem fully. It look's OK but I need to check this later on in the project. 
 
 

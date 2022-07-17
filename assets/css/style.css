@@ -36,8 +36,6 @@ h2 {
     display: flex;
     float: left;
     margin: 5px;
-    line-height: 90px;
-    opacity: 1.0;
     transition: 0.5s;
 }
 
@@ -51,15 +49,17 @@ h2 {
 
 /* navigation section */
 
-.navigation li {
+.navigation-area
+.top-navigation {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     list-style-type: none;
-    display: inline;
+    display: flex;
+    gap: 1rem;
     float: right;
     margin-right: 5px;
-    line-height: 120px;
+    line-height: 70px;
     transition: 0.5s;
 }
 
@@ -336,7 +336,6 @@ a {
     font-size: 100%;
     background-color: rgba(60, 60, 60, 0.1);
     color: rgba(26, 26, 26, .7);
-    float: left;
     margin-right: 5px;
 
 }
@@ -392,12 +391,12 @@ a {
         display: flex;
         clear: left;
         justify-content: center;
+      
 
     }
 
     .navigation li {
         font-size: 1.6rem;
-
     }
 
     #logo {
@@ -426,16 +425,21 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-    .navigation li {
-        font-size: 1.1rem;
-        clear: left;
-        display: block;
 
-
+    #logo{
+        font-size: 85%;
     }
 
-    #logo {
-        font-size: 70%;
+    .navigation-area
+    .top-navigation{
+        display: block;
+        line-height: 20px;
+        text-align: center;
+     
+    }
+
+    .top-navigation li{
+        font-size: 1.2rem;
     }
 
     .about-us-grid-element,
@@ -479,8 +483,8 @@ a {
 @media screen and (max-width: 390px) {
 
     .navigation li {
-        font-size: 0.8rem;
-        display: block;
+        font-size: 1rem;
+      
     }
 
     #logo {
