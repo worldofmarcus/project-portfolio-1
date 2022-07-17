@@ -107,7 +107,6 @@ a {
 #about-us {
     min-height: 300px;
     max-width: 100%;
-    background-color: #f16c6b;
 }
 
 #about-us h1 {
@@ -138,8 +137,7 @@ a {
 #our-services {
     min-height: 580px;
     width: 100%;
-    background-color: aquamarine;
-    /*background-color: #f8f8f8;*/
+    background-color: #f8f8f8;
 }
 
 #our-services h1 {
@@ -177,7 +175,6 @@ a {
 #portfolio {
     min-height: 550px;
     width: 100%;
-    background-color: #f16c6b;
 }
 
 #portfolio h1 {
@@ -256,8 +253,7 @@ a {
 #contact {
     min-height: 1400px;
     width: 100%;
-    background-color: aquamarine;
-    /*background-color: #f8f8f8;*/
+    background-color: #f8f8f8;
 }
 
 #contact h1 {
