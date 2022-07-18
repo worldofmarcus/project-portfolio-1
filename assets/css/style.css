@@ -236,7 +236,8 @@ a {
 
 video,
 audio,
-iframe {
+iframe
+ {
     max-width: 100%;
 }
 
@@ -457,6 +458,11 @@ video{
 
 @media screen and (max-width: 640px) {
 
+#clients img{
+    width: 100px;
+  
+}
+
     #logo {
         font-size: 85%;
     }
@@ -464,6 +470,7 @@ video{
     .navigation-area .top-navigation {
         display: block;
         line-height: 20px;
+        margin: 10px 0;
         text-align: center;
     }
 
@@ -474,15 +481,24 @@ video{
     .about-us-grid-element,
     .our-services-grid-element,
     .portfolio-welcome-element,
-    .contact-us-grid-element {
+    .contact-us-grid-element,
+    .portfolio-grid-element {
         font-size: 1.5rem;
     }
 
-    #about-us h1,
-    #our-services h1,
-    #portfolio h1,
-    #contact h1 {
+
+
+
+    #about-us h2,
+    #our-services h2,
+    #portfolio h2,
+    #contact h2 {
         font-size: 2.5rem;
+    }
+
+    .our-services-grid-element > h3,
+    .portfolio-grid-element > h3{
+        font-size: 2rem;
     }
 
     #quote-plate {
