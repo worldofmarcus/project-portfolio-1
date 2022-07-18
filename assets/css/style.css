@@ -417,6 +417,10 @@ hr {
         font-size: 1.8rem;
     }
 
+    #portfolio {
+        min-height: 2250px;
+         }
+
     #copyright {
         font-size: 2rem;
     }
@@ -480,6 +484,8 @@ hr {
         width: 100px;
     }
 
+ 
+   
     .contact-form {
         min-height: 530px;
     }
