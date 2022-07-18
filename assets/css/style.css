@@ -90,7 +90,7 @@ hr {
 
 #logo {
     font-size: 1.9rem;
-    margin: 5px;
+    margin: 3px;
     display: flex;
     float: left;
     transition: 0.5s;
@@ -103,17 +103,18 @@ hr {
 .navigation-area .top-navigation {
     font-size: 1.2rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     list-style-type: none;
     display: flex;
     gap: 1rem;
     float: right;
-    margin-right: 5px;
+    margin-right: 3px;
     line-height: 70px;
     transition: 0.5s;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.navigation a:focus {
     background-color: rgba(26, 26, 26, .7);
     color: rgb(255, 255, 255);
 }
