@@ -147,7 +147,7 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background: url('../images/index_hero.png') no-repeat center center;
+    background: url('../images/index_hero.webp') no-repeat center center;
     opacity: 0.9;
     transition: 0.5s
 }
