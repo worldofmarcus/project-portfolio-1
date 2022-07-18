@@ -26,14 +26,14 @@
             </ul>
         </nav>
     </header>
-    <section id="hero">
+    <div id="hero">
         <div id="hero-image">
             <p id="quote-plate">
                 “A creative life is an amplified life. It's a bigger life, a happier life, an expanded life, and a hell
                 of a lot more interesting life” - Elizabeth Gilbert
             </p>
         </div>
-    </section>
+    </div>
     <section id="about-us">
         <h2>This is Creative Dreams <i class="fa-solid fa-people-group"></i></h2>
         <div class="about-us-grid">
@@ -83,8 +83,8 @@
             </div>
             <div class="our-services-grid-element">
                 <h3>Brainstorming <i class="fa-solid fa-lightbulb"></i></h3>
-                <p>One definition of brainstorming is <span>a group problem-solving technique that involves the
-                        spontaneuous contribution of ideas from all members of the group</span>. Creative Dreams are
+                <p>One definition of brainstorming is <span>'a group problem-solving technique that involves the
+                        spontaneuous contribution of ideas from all members of the group'</span>. Creative Dreams are
                     professionals within the area of brainstorming and we can conduct high quality brainstorming
                     sessions i.e. with you, your band, your record label. You will not be disappointed!
                 </p>
@@ -120,17 +120,6 @@
             </div>
         </div>
         <div class="portfolio-grid">
-
-            <div class="portfolio-grid-element">
-                <p>
-                    <video controls autoplay muted loop>
-                        <source src="assets/videos/test.mp4" type="video/mp4">
-                        Your browser doesn't support HTML5 video.
-                        <a href="https://ak.picdn.net/shutterstock/videos/1058308858/preview/stock-footage-rock-band-with-guitarists-and-drummer-performing-at-a-concert-in-a-night-club-front-row-crowd-is.webm">Link to the
-                            video.</a>
-                    </video>
-                </p>
-            </div>
             <div class="portfolio-grid-element">
                 <h3 class="portfolio-title">Artist X Live Video <i class="fa-solid fa-file-video"></i></h3>
                 <p class="portfolio-media-description">
@@ -141,6 +130,20 @@
                     convince you to lay your trust in us and so that we can do great things together!
                 </p>
             </div>
+            <div class="portfolio-grid-element">
+                <p>
+                    <!-- Video from www.shutterstock.com -->
+                    <video controls autoplay muted loop>
+                        <source src="assets/videos/video_artist_x.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video.
+                        <a
+                            href="https://ak.picdn.net/shutterstock/videos/1058308858/preview/stock-footage-rock-band-with-guitarists-and-drummer-performing-at-a-concert-in-a-night-club-front-row-crowd-is.webm">Link
+                            to the
+                            video.</a>
+                    </video>
+                </p>
+            </div>
+            
 
             <div class="portfolio-grid-element">
                 <h3 class="portfolio-title">Artist Y Live Video <i class="fa-solid fa-file-video"></i></h3>
@@ -153,10 +156,13 @@
             </div>
             <div class="portfolio-grid-element">
                 <p>
+                    <!-- Video from www.shutterstock.com -->
                     <video controls autoplay muted loop>
-                        <source src="assets/videos/test2.mp4" type="video/mp4">
+                        <source src="assets/videos/video_artist_y.mp4" type="video/mp4">
                         Your browser doesn't support HTML5 video.
-                        <a href="https://ak.picdn.net/shutterstock/videos/1058126545/preview/stock-footage-four-man-rock-band-with-lead-singer-guitarists-bassist-and-drummer-performing-at-a-concert-in-a.webm">Link to the
+                        <a
+                            href="https://ak.picdn.net/shutterstock/videos/1058126545/preview/stock-footage-four-man-rock-band-with-lead-singer-guitarists-bassist-and-drummer-performing-at-a-concert-in-a.webm">Link
+                            to the
                             video.</a>
                     </video>
                 </p>
@@ -172,6 +178,7 @@
             </div>
             <div class="portfolio-grid-element">
                 <p>
+                    
                     <audio src="assets/audio/audio_1.mp3" controls loop>
                         Your browser doesn't support HTML5 audio.
                         <a href="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/sunset.mp4">Link to the
@@ -199,21 +206,22 @@
                             video.</a>
                     </audio>
                 </p>
-                
+
             </div>
         </div>
     </section>
-   
+
     <section id="contact">
         <h2>Contact Us <i class="fa-solid fa-address-card"></i></h2>
-        
+
         <div class="contact-us-grid">
             <div class="contact-us-grid-element">
-                <p>Feel free to contact us to get started, or to just send as a greeting! Fields marked with an asterisk are required.</p>
+                <p>Feel free to contact us to get started, or to just send as a greeting! Fields marked with an asterisk
+                    are required.</p>
             </div>
-            
+
             <div class="contact-us-grid-element">
-                
+
                 <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
                     <label for="first-name">First Name: *
                     </label>
@@ -247,17 +255,17 @@
             <div class="contact-us-grid-element">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6942.917595719306!2d19.702332305092682!3d64.21217938354455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c0bbe0e3d8215%3A0x3a67db692154a748!2sVindeln%205%2C%20922%2091%20Vindeln!5e0!3m2!1ssv!2sse!4v1657876750495!5m2!1ssv!2sse"
-                    width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="contact-us-grid-element">
-                <p id="address">
+                <div id="address">
                     <p>Creative Dreams AB</p>
                     <p>Creative Road 10</p>
                     <p>123 45 Vindeln, Sweden</p>
                     <p>Phone: +46(0)123 45 67</p>
-                </p>
-                
+                </div>
+
                 <div id="social-media-bar">
                     <ul class="social-media-list">
                         <li>
@@ -290,16 +298,17 @@
             </div>
         </div>
     </section>
-    <section id="footer">
+    <div id="footer">
         <div class="footer-content">
             <div id="copyright">
                 <p>©2022 Creative Dreams</p>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/8d439f32ad.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

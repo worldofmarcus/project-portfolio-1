@@ -215,6 +215,8 @@ a {
     margin: 50px;
     font-size: 2rem;
     text-align: center;
+
+    
 }
 
 
@@ -222,7 +224,10 @@ a {
     list-style-type: none;
     display: inline;
     opacity: 0.4;
-    transition: 0.5s
+    transition: 0.5s;
+    
+  
+    
 }
 
 .portfolio-clients-element li:hover {
@@ -230,7 +235,8 @@ a {
 }
 
 video,
-audio {
+audio,
+iframe {
     max-width: 100%;
 }
 
@@ -437,7 +443,12 @@ audio{
     border-radius: 90px;
     
 }
-
+video{
+    
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+ 
+    
+}
 
 @media screen and (max-width: 640px) {
 
