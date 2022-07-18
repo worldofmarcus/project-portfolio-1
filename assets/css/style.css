@@ -388,6 +388,17 @@ header {
     transition: 0.5s;
 }
 
+#quote-plate a{
+        text-decoration: underline;
+        color: inherit;
+        padding: 7px 7px;
+        border-radius: 20px;
+    }
+
+#logo-thank-you{
+align-content: center;
+}
+
 /* ==============
    media queries
    ============== */
