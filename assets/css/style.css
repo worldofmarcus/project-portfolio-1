@@ -259,6 +259,11 @@ iframe {
 
 }
 
+.portfolio-media-description span {
+    font-style: italic;
+
+}
+
 .portfolio-grid-element {
     margin: 0 15px;
     font-size: 1.8rem;
