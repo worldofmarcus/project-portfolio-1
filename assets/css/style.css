@@ -1,3 +1,7 @@
+/* ==============
+   global styles
+   ============== */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 
 * {
@@ -13,7 +17,6 @@ html {
 }
 
 body {
-
     max-width: 1280px;
     margin: 0 auto;
     font-family: Montserrat, sans-serif;
@@ -22,7 +25,22 @@ body {
     color: rgba(26, 26, 26, .7);
 }
 
-/* headings and logo */
+video,
+audio,
+iframe,
+form {
+    max-width: 100%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+audio {
+    width: 70%;
+    border-radius: 90px;
+}
+
+/* ==============
+   typography
+   ============== */
 
 h1,
 h2,
@@ -32,23 +50,55 @@ h3 {
     letter-spacing: 5px;
 }
 
+#about-us h2,
+#our-services h2,
+#portfolio h2,
+#contact h2 {
+    font-size: 3.5rem;
+    margin: 20px 0 0 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.our-services-grid-element h3,
+.portfolio-grid-element h3 {
+    font-size: 2.5rem;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 7px 7px;
+    border-radius: 20px;
+}
+
+span {
+    font-style: italic;
+}
+
+hr {
+    margin: 6px 0 3px 0;
+}
+
+/* ==============
+   layout
+   ============== */
+
+/* Logo & Navigation */
+
 #logo {
     font-size: 1.9rem;
+    margin: 5px;
     display: flex;
     float: left;
-    margin: 5px;
     transition: 0.5s;
 }
 
 #logo:hover {
     opacity: 0.5;
 }
-
-.fa-solid {
-    letter-spacing: 0;
-}
-
-/* navigation section */
 
 .navigation-area .top-navigation {
     font-size: 1.2rem;
@@ -63,20 +113,13 @@ h3 {
     transition: 0.5s;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    padding: 7px 7px;
-    border-radius: 20px;
-}
-
 .navigation a:hover {
     background-color: rgba(26, 26, 26, .7);
     color: rgb(255, 255, 255);
 }
 
 /* hero section */
-#hero {
+.hero {
     min-height: 400px;
     width: 100%;
     overflow: hidden;
@@ -86,7 +129,7 @@ a {
     transition: 0.5s
 }
 
-#hero:hover {
+.hero:hover {
     opacity: 1.0;
 }
 
@@ -101,21 +144,16 @@ a {
     top: 120px;
     left: 80px;
     position: absolute;
+    transition: 0.5s;
 }
 
 /* about us section */
+
 #about-us {
     min-height: 300px;
     max-width: 100%;
     background-color: #eaeaea;
     border-radius: 20px;
-}
-
-#about-us h2 {
-    font-size: 3.5rem;
-    margin: 20px 0 0 0;
-    padding: 30px;
-    text-align: center;
 }
 
 .about-us-grid {
@@ -142,25 +180,12 @@ a {
     border-radius: 20px;
 }
 
-#our-services h2 {
-    font-size: 3.5rem;
-    margin: 20px 0 0 0;
-    padding: 30px;
-    text-align: center;
-}
-
 .our-services-grid {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 15px;
-}
-
-.our-services-grid-element h3 {
-    font-size: 2.5rem;
-    margin: 0 0 16px 0;
-    text-align: center;
 }
 
 .our-services-grid-element {
@@ -182,20 +207,13 @@ a {
     border-radius: 20px;
 }
 
-#portfolio h2 {
-    font-size: 3.5rem;
-    margin: 20px 0 0 0;
-    padding: 30px;
-    text-align: center;
-}
-
-.portfolio-welcome {
+.portfolio-welcome,
+.portfolio-clients {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 40px;
-
 }
 
 .portfolio-welcome-element {
@@ -204,41 +222,21 @@ a {
     text-align: justify;
 }
 
-.portfolio-clients {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-}
-
 .portfolio-clients-element {
     margin: 50px;
     font-size: 2rem;
     text-align: center;
-
-    
 }
-
 
 .portfolio-clients-element li {
     list-style-type: none;
     display: inline;
     opacity: 0.4;
     transition: 0.5s;
-    
-  
-    
 }
 
 .portfolio-clients-element li:hover {
     opacity: 0.7;
-}
-
-video,
-audio,
-iframe
- {
-    max-width: 100%;
 }
 
 .portfolio-grid {
@@ -246,29 +244,16 @@ iframe
     display: grid;
     grid-auto-flow: row;
     grid-gap: 40px;
-
-}
-
-.portfolio-grid-element h3 {
-    margin: 0 0 16px 0;
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-.portfolio-media-description {
-    text-align: justify;
-
-}
-
-.portfolio-media-description span {
-    font-style: italic;
-
 }
 
 .portfolio-grid-element {
     margin: 0 15px;
     font-size: 1.8rem;
     text-align: center;
+}
+
+.portfolio-media-description {
+    text-align: justify;
 }
 
 /* contact us section */
@@ -278,13 +263,6 @@ iframe
     width: 100%;
     background-color: #f8f8f8;
     border-radius: 20px;
-}
-
-#contact h2 {
-    margin: 20px 0 0 0;
-    font-size: 3.5rem;
-    padding: 30px;
-    text-align: center;
 }
 
 .contact-us-grid {
@@ -313,7 +291,8 @@ iframe
     font-size: 1.4rem;
 }
 
-.text-input {
+.text-input,
+.text-input-other {
     background: transparent;
     color: rgba(26, 26, 26, .7);
     width: 100%;
@@ -324,26 +303,16 @@ iframe
 }
 
 .text-input-other {
-    background: transparent;
-    color: rgba(26, 26, 26, .7);
-    width: 100%;
     height: 75px;
-    margin: 5px 0 20px 0;
-    border: 1px solid rgba(26, 26, 26, .7);
-    border-radius: 5px;
-}
-
-.radio-input {
-    margin: 0 10px 0 0;
 }
 
 .text-input:hover,
 .text-input-other:hover {
-    border-color: #f16c6b;
+    border-color: #b92121;
 }
 
-.contact-form hr {
-    margin: 6px 0 3px 0;
+.radio-input {
+    margin: 0 10px 0 0;
 }
 
 .submit-button {
@@ -389,7 +358,6 @@ iframe
     margin: 30px 0 0 0;
     font-size: 2.5rem;
     line-height: 60px;
-
 }
 
 #copyright {
@@ -397,7 +365,11 @@ iframe
     transition: 0.5s;
 }
 
-/* responsive code */
+/* ==============
+   media queries
+   ============== */
+
+/* min-width 951px */
 
 @media screen and (min-width: 951px) {
     .portfolio-grid {
@@ -406,8 +378,19 @@ iframe
     }
 }
 
+/* max-width 950px */
+
 @media screen and (max-width: 950px) {
 
+    #logo {
+        font-size: 90%;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
     .navigation {
         display: flex;
         clear: left;
@@ -418,50 +401,22 @@ iframe
         font-size: 1.6rem;
     }
 
-    #logo {
-        font-size: 90%;
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
     #quote-plate {
         font-size: 150%;
         width: 400px;
         height: 250px;
         top: 100px;
         left: 50px;
-        transition: 0.5s
     }
-
-
 
     #copyright {
         font-size: 2rem;
     }
 }
 
-audio{
-    width: 70%;
-    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
-    border-radius: 90px;
-    
-}
-video{
-    
-    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
- 
-    
-}
+/* max-width 640px */
 
 @media screen and (max-width: 640px) {
-
-#clients img{
-    width: 100px;
-  
-}
 
     #logo {
         font-size: 85%;
@@ -478,29 +433,6 @@ video{
         font-size: 1.2rem;
     }
 
-    .about-us-grid-element,
-    .our-services-grid-element,
-    .portfolio-welcome-element,
-    .contact-us-grid-element,
-    .portfolio-grid-element {
-        font-size: 1.5rem;
-    }
-
-
-
-
-    #about-us h2,
-    #our-services h2,
-    #portfolio h2,
-    #contact h2 {
-        font-size: 2.5rem;
-    }
-
-    .our-services-grid-element > h3,
-    .portfolio-grid-element > h3{
-        font-size: 2rem;
-    }
-
     #quote-plate {
         font-size: 100%;
         width: 350px;
@@ -510,10 +442,34 @@ video{
         transition: 0.5s
     }
 
+    .about-us-grid-element,
+    .our-services-grid-element,
+    .portfolio-welcome-element,
+    .contact-us-grid-element,
+    .portfolio-grid-element {
+        font-size: 1.5rem;
+    }
+
+    #about-us h2,
+    #our-services h2,
+    #portfolio h2,
+    #contact h2 {
+        font-size: 2.5rem;
+    }
+
+    .our-services-grid-element>h3,
+    .portfolio-grid-element>h3 {
+        font-size: 2rem;
+    }
+
     .our-services-grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 40px;
+    }
+
+    #clients img {
+        width: 100px;
     }
 
     .contact-form {
@@ -525,14 +481,15 @@ video{
     }
 }
 
-@media screen and (max-width: 390px) {
+/* max-width 390px */
 
-    .navigation li {
-        font-size: 1rem;
-    }
+@media screen and (max-width: 390px) {
 
     #logo {
         font-size: 60%;
+    }
+    .navigation li {
+        font-size: 1rem;
     }
 
     #quote-plate {
