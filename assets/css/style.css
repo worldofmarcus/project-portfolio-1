@@ -418,7 +418,7 @@ hr {
     }
 
     #portfolio {
-        min-height: 2250px;
+        min-height: 2350px;
          }
 
     #copyright {
@@ -479,13 +479,11 @@ hr {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 40px;
     }
-
+  
     #clients img {
         width: 100px;
     }
 
- 
-   
     .contact-form {
         min-height: 530px;
     }
@@ -502,6 +500,7 @@ hr {
     #logo {
         font-size: 60%;
     }
+    
     .navigation li {
         font-size: 1rem;
     }
@@ -510,9 +509,13 @@ hr {
         font-size: 100%;
         width: 270px;
         height: 270px;
-        top: 130px;
+        top: 110px;
         left: 30px;
     }
+
+    #portfolio {
+        min-height: 2450px;
+         }
 
     .contact-form {
         min-height: 510px;
