@@ -409,6 +409,14 @@ hr {
         left: 50px;
     }
 
+    .about-us-grid-element,
+    .our-services-grid-element,
+    .portfolio-welcome-element,
+    .contact-us-grid-element,
+    .portfolio-grid-element {
+        font-size: 1.8rem;
+    }
+
     #copyright {
         font-size: 2rem;
     }
