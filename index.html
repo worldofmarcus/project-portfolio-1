@@ -15,32 +15,32 @@
 
     <!-- Header 'Navigation Area and Hero image' -->
     <div class="box-area">
-    <header>
-        <div class="wrapper">
-        <a href="index.html" id="logo">
-            <h1>Creative Dreams <i class="fa-solid fa-headphones"></i></h1>
-        </a>
-        <nav>
-            <ul class="top-navigation">
-                <li><a href="#about-us">About</a></li>
-                <li><a href="#our-services">Our Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    </header>
-</div>
-        <!-- Div 'Hero image' - Photo by Jonathan Velasquez (from Unsplash - https://unsplash.com/photos/c1ZN57GfDB0') -->
-        <div class="hero">
-            <div class="hero-image">
-                <p id="quote-plate">
-                    “A creative life is an amplified life. It's a bigger life, a happier life, an expanded life, and a
-                    hell of a lot more interesting life” - Elizabeth Gilbert
-                </p>
+        <header>
+            <div class="wrapper">
+                <a href="index.html" id="logo" class="active">
+                    <h1>Creative Dreams <i class="fa-solid fa-headphones"></i></h1>
+                </a>
+                <nav>
+                    <ul class="top-navigation">
+                        <li><a href="#about-us">About</a></li>
+                        <li><a href="#our-services">Our Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
+    </div>
+    <!-- Div 'Hero image' - Photo by Jonathan Velasquez (from Unsplash - https://unsplash.com/photos/c1ZN57GfDB0') -->
+    <div class="hero">
+        <div class="hero-image">
+            <p id="quote-plate">
+                “A creative life is an amplified life. It's a bigger life, a happier life, an expanded life, and a
+                hell of a lot more interesting life” - Elizabeth Gilbert
+            </p>
         </div>
- 
+    </div>
+
 
     <main>
 
@@ -152,8 +152,8 @@
                 </div>
                 <div class="portfolio-grid-element">
                     <p>
-       
-                            <!-- Video from www.shutterstock.com -->
+
+                        <!-- Video from www.shutterstock.com -->
                         <video controls autoplay muted loop>
                             <source src="assets/videos/video_artist_x.mp4" type="video/mp4">
                             Your browser doesn't support HTML5 video.
@@ -162,7 +162,7 @@
                                 to the
                                 video.</a>
                         </video>
-                        
+
                     </p>
                 </div>
 
@@ -343,6 +343,16 @@
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/8d439f32ad.js" crossorigin="anonymous"></script>
+    <!-- <script src="assets/script/script.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'ul li', function () {
+
+            $(this).addClass('active').siblings().removeClass('active')
+
+        })
+    </script>
 </body>
 
 </html>

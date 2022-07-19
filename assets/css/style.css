@@ -28,6 +28,7 @@ body {
 
 object,
 audio,
+video,
 iframe,
 form {
     max-width: 100%;
@@ -78,6 +79,8 @@ a {
     padding: 7px 7px;
     border-radius: 20px;
 }
+
+
 
 span {
     font-style: italic;
@@ -133,8 +136,13 @@ header {
 
 
 
-.top-navigation a:hover,
-.top-navigation nav a:focus
+.top-navigation a:hover
+{
+    text-decoration: underline;
+}
+
+.top-navigation nav a:focus,
+li.active
 
  {
     background-color: rgba(26, 26, 26, .7);
