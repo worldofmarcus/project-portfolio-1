@@ -147,3 +147,5 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ## Other General Project Advice
 
 TBD
+
+Had some challenges with lighthouse results due to big video / audiosizes.

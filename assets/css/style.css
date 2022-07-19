@@ -440,7 +440,7 @@ align-content: center;
         justify-content: center;
     }
 
-    .top-navigation li {
+    .top-navigation {
         font-size: 1.6rem;
     }
 
@@ -488,15 +488,12 @@ align-content: center;
 
     .top-navigation {
         display: block;
-        line-height: 20px;
+        line-height: 23px;
         margin: 10px 0;
         text-align: center;
+        font-size: 1.2rem;        
     }
-
-    .top-navigation li {
-        font-size: 1.2rem;
-    }
-
+    
     #quote-plate {
         font-size: 100%;
         width: 350px;
