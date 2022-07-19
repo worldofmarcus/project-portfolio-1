@@ -136,15 +136,12 @@ header {
 
 
 
-.top-navigation a:hover
-{
+.top-navigation a:hover {
     text-decoration: underline;
 }
 
 .top-navigation nav a:focus,
-li.active
-
- {
+li.active {
     background-color: rgba(26, 26, 26, .7);
     color: rgb(255, 255, 255);
 }
@@ -396,15 +393,15 @@ li.active
     transition: 0.5s;
 }
 
-#quote-plate a{
-        text-decoration: underline;
-        color: inherit;
-        padding: 7px 7px;
-        border-radius: 20px;
-    }
+#quote-plate a {
+    text-decoration: underline;
+    color: inherit;
+    padding: 7px 7px;
+    border-radius: 20px;
+}
 
-#logo-thank-you{
-align-content: center;
+#logo-thank-you {
+    align-content: center;
 }
 
 /* ==============
@@ -423,18 +420,18 @@ align-content: center;
 /* max-width 950px */
 
 @media screen and (max-width: 950px) {
-    
+
     html {
-        scroll-padding-top: 110px;
+        scroll-padding-top: 120px;
     }
 
     header {
-        height: 110px;
-     
+        height: 120px;
+
     }
 
     #logo {
-        font-size: 90%;
+        font-size: 120%;
         margin: 0 auto;
         padding: 0;
         width: 100%;
@@ -487,7 +484,7 @@ align-content: center;
 
     header {
         height: 135px;
-     
+
     }
 
     #logo {
@@ -499,7 +496,7 @@ align-content: center;
         line-height: 23px;
         margin: 10px 0;
         text-align: center;
-        font-size: 1.2rem;        
+        font-size: 1.2rem;
     }
 
     #quote-plate {
