@@ -34,9 +34,16 @@ The Creative Dreams website is 100% fictional and was created for Portfolio Proj
 
 * [Features Left To Implement](<#features-left-to-implement>)
 
-* [**Technologies Used**](<#technologies-used>)
+* [Technologies Used](<#technologies-used>)
     * [Languages](<#languages>)
     * [Frameworks, Librarys & Software](<#frameworks>)
+
+* [Testing](<#testing>)
+  * [Code Validation](<#code-validation>)
+  * [Responsiveness Test](<#responsiveness-test>)
+  * [Browser Compatibility](<#browser-compatibility>)
+  * [Additional Testing](<#additional-testing>) 
+
 #   Project
 
 ## **Strategy**
@@ -174,30 +181,94 @@ The features on the Creative Dreams website will help the users to understand wh
 * [Font Awesome:](https://fontawesome.com/) - used to import icons to the website.
 * [Github](https://github.com/) - used to host and edit the website.
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used for testing website
 * [Google Fonts](https://fonts.google.com/) - used to import fonts to the website.
 * [Google Maps](https://www.google.com/maps) - used to embed map with Creative Studios location.
 * [Jquery](https://jquery.com/) - used to implement highlight function on top navigation after being clicked.
 * [Lighthouse](https://developers.google.com/web) - used to test performance of site.
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/) - used for responsiveness check.
 * [Shutterstock](https://www.shutterstock.com/sv/) - used to get video clips to the site.
 * [TinyPNG](https://tinypng.com/) - used to compress images.
 * [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - used to validate the sites accessibility
 
-## Testing
+# Testing
 
-Testing have been made on following browsers:
 
-- Google Chrome Version (103.0.5060.114)
-  - No bugs found
-- Mozilla Firefox (version 102.0.1)
-  - No bugs found
-- Min (version 1.25.1)
-  - No bugs found
-- Apple Safari (version 15.5)
-  - So far I have only found one bug in Safari. The hover effect on the log doesn't work properly. I believe the reason is a rgba bug in Safari connected to opacity.
-- Microsoft Edge (version 103.0.1264.62)
-  - No bugs found
-  
-### General bugs
+## Code Validation
+The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
+
+The HTML validator results for each page are below:
+
+* Home Page
+
+
+* Form Confirmation page
+
+
+
+The CSS validator results are below:
+
+
+
+
+# Responsiveness Test
+
+The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+
+
+### **Desktop**
+
+|            | Display <1280px       | Display >1280px    |
+|------------|-----------------------|--------------------|
+| Render     | pass                  | pass               | 
+| Images     | pass                  | pass               | 
+| Links      | pass                  | pass               |
+
+### **Tablet**
+|            | Samsung Galaxy Tab 10 | Amazon Kindle Fire | iPad Mini | iPad Pro |
+|------------|-----------------------|--------------------|-----------|----------|
+| Render     | pass                  | pass               | pass      | pass     | 
+| Images     | pass                  | pass               | pass      | pass     | 
+| Links      | pass                  | pass               | pass      | pass     | 
+
+### **Phone**
+|            | Galaxy S5/S6/S7       | iPhone 6/7/8       | iPhone 12pro         |
+|------------|-----------------------|--------------------|----------------------|
+| Render     | pass                  | pass               | pass      | pass     | 
+| Images.    | pass                  | pass               | pass      | pass     | 
+| Links      | pass                  | pass               | pass      | pass     | 
+
+
+*Comment: To keep the design togehther on wider screens the content of the site is restricted to 1280px.*
+
+## Browser Compatibility
+
+Creative Dreams website was tested on the following browsers on desktop, tablet and phone with no visible issues for the user. 
+
+* Google Chrome Version (103.0.5060.114)
+* Mozilla Firefox (version 102.0.1)
+* Min (version 1.25.1)
+* Apple Safari (version 15.5)
+* Microsoft Edge (version 103.0.1264.62)
+
+## Additional Testing
+
+###   Accessibility
+[Audioeye.com](http://www.audioeye.com) was used to do a color contrast check.
+
+PICTURE
+
+[WAVE](https://wave.webaim.org/) was used to check accessibility. X errors and X alerts.
+
+PICTURE
+
+### Lighthouse
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools was used to test the website for *Performance*, *Accessibility*, *Best Practices* and *SEO*.
+
+PICTURE
+
+## Known bugs
+
 **2022-07-14**
 - Bug: Hover effect on logo not working properly on Safari.
 - Bug: Challenges with portfolio section. Grid system not responsive. I think it has to do with the video content. Need a solution to that. **Update 2022-07-16** Fixed responsiveness problem for video/audio content by adding max width to Video and Audio elements.
