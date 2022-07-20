@@ -193,52 +193,54 @@ The features on the Creative Dreams website will help the users to understand wh
 
 # Testing
 
-
 ## Code Validation
-The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
+The Creative Dreams has been tested through both [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
 
-The HTML validator results for each page are below:
+### HTML Validator
+The HTML validator results for each page can be seen below:
 
 * Home Page
+No errors were returned when passing through the official W3C validator.
 
+![HTML Result Home Page](readme/assets/images/html_result_home_page.png)
 
 * Form Confirmation page
+Some minor errors was reported. The errors was genereated by two faulty div elements in form_confirmation.html.
 
-  - No errors were returned when passing through the official W3C validator
+![HTML Result Form Confirmation With Errors](readme/assets/images/html_result_form_with_errors.png)
 
+It was an easy fix and when the page was re-run in the validator no errors were returned.
 
-The CSS validator results are below:
+![HTML Result Form Confirmation With No Errors](readme/assets/images/html_result_form_with_no_errors.png)
 
+### CSS Validator
+The CSS validator results can be seen below:
 
+No errors were returned when passing through the official W3C validator
 
+![CSS Result](readme/assets/images/css_result.png)
 
 # Responsiveness Test
 
 The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
-
-### **Desktop**
-
-|            | Display <1280px       | Display >1280px    |
+| Desktop    | Display <1280px       | Display >1280px    |
 |------------|-----------------------|--------------------|
 | Render     | pass                  | pass               | 
 | Images     | pass                  | pass               | 
 | Links      | pass                  | pass               |
 
-### **Tablet**
-|            | Samsung Galaxy Tab 10 | Amazon Kindle Fire | iPad Mini | iPad Pro |
+| Tablet     | Samsung Galaxy Tab 10 | Amazon Kindle Fire | iPad Mini | iPad Pro |
 |------------|-----------------------|--------------------|-----------|----------|
 | Render     | pass                  | pass               | pass      | pass     | 
 | Images     | pass                  | pass               | pass      | pass     | 
 | Links      | pass                  | pass               | pass      | pass     | 
 
-### **Phone**
-|            | Galaxy S5/S6/S7       | iPhone 6/7/8       | iPhone 12pro         |
+| Phone      | Galaxy S5/S6/S7       | iPhone 6/7/8       | iPhone 12pro         |
 |------------|-----------------------|--------------------|----------------------|
 | Render     | pass                  | pass               | pass      | pass     | 
 | Images.    | pass                  | pass               | pass      | pass     | 
 | Links      | pass                  | pass               | pass      | pass     | 
-
 
 *Comment: To keep the design togehther on wider screens the content of the site is restricted to 1280px.*
 
@@ -262,6 +264,8 @@ Creative Dreams website was tested on the following browsers on desktop, tablet 
 
 ### Lighthouse
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools was used to test the website for *Performance*, *Accessibility*, *Best Practices* and *SEO*.
+
+
 
 PICTURE
 
