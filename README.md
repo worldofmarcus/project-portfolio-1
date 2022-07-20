@@ -1,86 +1,186 @@
-# **CREATIVE DREAMS**
 
-Creative Dreams is a site that target people who are in need of help with professional recording, mixing and mastering within the music and sound context.
+# **Creative Dreams**
+Creative Dreams is a website that target people who are in need of help with professional recording, mixing and mastering within the music and sound context.
 
 Today almost everyone can record music and sounds in their own home but Creative Dreams wants to make it easy for the users to get in contact and start working with a professional studio.
 
+The Creative Dreams website is 100% fictional and was created for Portfolio Project #1 (HTML&CSS) - Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net).
+
+[View live website here](https://worldofmarcus.github.io/project-portfolio-1/)
+
+![Creative Dreams responsive design](readme/assets/images/responsive.png)
+
+# Table of content 
+
+* [Project](#project)
+    * [Strategy](#strategy)
+    * [Site Owner Goals](#site-owner-goals)
+    * [Site User Goals](#user-goals)
+
+* [User Experience (UX)](#user-experience-ux)
+    * [Wireframes](<#wireframes>)
+    * [Structure](#structure)
+    * [Design Choices](<#design-choices>)
+
+* [Features](<#features>)
+    * [Navigation Bar](<#navigation-bar>)
+    * [Hero Section](<#hero-section>)
+    * [About Us Section](<#about-section>)
+    * [Our Services Section](<#our-services>)
+    * [Portfolio Section](<#portfolio-section>)
+    * [Contact Section](<#contact-section>)
+    * [Footer Section](<#footer-section>)
+    * [Form Confirmation Page](<#form-confirmation-page>)
+
+* [Features Left To Implement](<#features-left-to-implement>)
+
+* [**Technologies Used**](<#technologies-used>)
+    * [Languages](<#languages>)
+    * [Frameworks, Librarys & Software](<#frameworks>)
+#   Project
+
+## **Strategy**
+
+asdfasdfasdf
+
 ## **External Users Goal**
-The site users are in need of help with professional recording, mixing and mastering of sound/music.
+The site users are in need of help with professional recording, mixing and mastering of sound/music. The user wants to be able to navigate through the whole site in an efficient and intuitive way and be able to contact Creative Dreams easily.
 
 ## **Site Owners Goal**
-The goal of the site is to reach new customers and clients within the context of recording, mixing and mastering of sound and music. The site will help reaching out to potential new customers and clients which wil increase the inflow of warm leads. The outcome will be strenghtened branding and increased revenue.
+The goal of the site is to reach new customers and clients within the context of recording, mixing and mastering of sound and music. The site will help reaching out to potential new customers and clients which will increase the inflow of warm leads. The outcome will be strenghtened branding and increased revenue.
 
-## **Early Mockup**
+# User Experience (UX)
 
-![Early Mockup](/mockup/img/creative_dreams_mockup_v0.9.png)
+## Wireframes
+The wireframes for Creative Dreams were created in the software [Balsamiq](https://balsamiq.com). The wireframes have been created for desktop, tablet and mobile decice. Relevant text content had not been written when the wireframes was produced. The final site has som smaller visual differences compared to the wireframes due to design choices that was being made during the process of creation.
 
-## **Final design**
-![Final Design](/mockup/img/creative_dreams_v1.0.png)
+![Wireframes](readme/assets/images/creative_dreams_mockup_v0.9.png)
 
-## **Features**
-The features on this site will help the users to understand what Creative Dreams offer and in an easy way initiate contact. General examples of features are navigation bar, contact form, about section, 'what we do'-section, examples of clients.
+## Structure
+The Creative Dreams website has five pages. The first four pages are accessable through a sticky navigation menu in the top of the [home page](index.html). The links are anchor links that gets highlighted after being clicked to make sure the user knows where they are on the page. There is also a [form confirmation page](form-confirmation.html) that the user will come to after clicking the submit button in the contact form on the home page. The thank you page has clear instructions how to get back to the main page (both through direct link and top menu).
 
-### **Existing Features**
+## Design Choices
 
- __Navigation Bar__
+* ### Color Scheme
+The color scheme chosen for Creative Dreams is based on different shades of gray. The user gets no surprises regarding the colors on the site and the choice of colors creates a sense of calmness, structure and modern look.
 
-  - The navigation section will help the user to, in an easy way, navigate on the page.
+OBS! LÄGG IN DE FAKTISKA FÄRGERNA SOM ANVÄNTS HÄR -> For beast readability and clean look white colour was chosen for the bacgkround, "Black Chocolate #272722" for text. I chose "Light Salmon #FF9F76" colour for hover, buttons and navigation elements to stand out and delicate "Miami Pink #FFD9EA" for sections background. "French Bistre #7A6D5B" colour was used for text in the footer. "Light Gray #D0D2D6" was used for boxes shadow effect and form input hover.
+  
+![Colour Palate image](readme/assets/images/colormind_palette.png)
 
-  - All sections on the site are gathered on the landing page (*index.html*) and the navigation bar, that is fully responsive, includes anchor links to *home*, *about*, *our services*, *portfolio* and *contact*. 
+* ### Typography
+The fonts used on the Creative Dreams website are 'Montserrat' and 'Oswald'. Fallback font for both of them is sans-serif.
+
+  * 'Montserrat' was chosen due to it's clean and almost 'poster-like' look. It's being used both as headlines and in running text.
+  * 'Oswald' was chosen to the quote plate on the hero image to get the users attention with its more intense look.
+Both fonts are easy to read and creates a good contrast to the background.
+
+![Google Fonts Montserrat](readme/assets/images/google_fonts_montserrat.png)
+![Google Fonts Oswald](readme/assets/images/google_fonts_oswald.png)
+
+# **Features**
+The features on the Creative Dreams website will help the users to understand what Creative Dreams offer and in an easy way initiate contact. General examples of features are navigation bar, contact form, about section, 'what we do'-section and examples of clients.
+
+## **Existing Features**
+
+### Navigation Bar
+
+  * The navigation section will help the user to, in an easy way, navigate on the page.
+
+  * All sections on the site are gathered on the landing page (*index.html*) and the navigation bar, that is fully responsive, includes anchor links (with smooth scrolling) to *home*, *about*, *our services*, *portfolio* and *contact*.
+
+  * The navigation is fixed / sticky and the menu items will stay highlighted after being clicked to make sure the user knows where they are on the site.
  
 ![Nav Bar](TBD) TBD - Might include reference to the specific project file.
 
-- __Hero Image__
+### Hero Section
 
-  - The landing page includes a photograph with an overlay text box including an inspirational quote by Elizabeth Gilbert (*A creative life is an amplified life, it's a bigger life, a happier life, an expanded life, and a hell of a lot more interesting life"*).
+* The landing page includes a photograph with an overlay text box including an inspirational quote by Elizabeth Gilbert (*A creative life is an amplified life, it's a bigger life, a happier life, an expanded life, and a hell of a lot more interesting life"*).
 
-  - This section will get the users attention and inspire to learn more about Creative Dreams.
+* This section will get the users attention and inspire to learn more about Creative Dreams.
 
 ![Landing Page](TBD) TBD
 
-- __About (This Is What We Do) Section__
+### About Us Section
 
-    - The about section will introduce the user to who Creative Dreams are, a high-end studio with one clear mission, *to deliver top quality recordings, mixing and mastering solutions* to our customers.
-
+* The about section is an important part of a webpage and describes information about a company. It will introduce the user to who Creative Dreams are, a high-end studio with one clear mission, *to deliver top quality recordings, mixing and mastering solutions* to the customers.
 
 ![About](TBD) TBD
 
-- __Our Services__
+### Our Services Section
 
-  - This section will introduce the user to what services Creative Dreams offers (*recording*, *mixing*, *mastering* and *brainstorming*).
-  - This section will make the user interested in Creative Dreams products and trigger them to learn more and initiate contact.
+* The Our Services Section will introduce the user to what services Creative Dreams offers (*recording*, *mixing*, *mastering* and *brainstorming*).
+
+* This section will make the user interested in Creative Dreams products and trigger them to learn more and initiate contact.
 
 ![Our Services](TBD) TBD
 
-- __Portfolio__
+### Portfolio Section
 
-    - A portfolio is intended to showcase a collection of high-end work. This is Creative Dreams portfolio and here the user will find examples of work that has been done in the past.
-    - The user will get information of which clients Creative Dreams have worked with.
-    - The portfolio is of great importance to make the user (*potential customer*) feel comfortable and safe to initiate contact with Creative Dreams.
+* A portfolio is intended to showcase a collection of high-end work. This is Creative Dreams portfolio and here the user will find examples of work that has been done in the past.
+
+* The user will in this section also get information of which clients Creative Dreams have worked with.
+
+* The portfolio is of great importance to make the user (*potential customer*) feel comfortable and safe to initiate contact with Creative Dreams.
 
 ![Portfolio](TBD) TBD
 
-- __Contact__ 
+### Contact Section
 
-  - The contact section includes a form where the user can include *First name*, *Last name*, *E-mail*, *Topic (Recording, Mixing, Mastering, Brainstorming*) and the possibility to sign-up for a *newsletter*. The form includes *submit* and a *reset* button. The aim is to make a very straight-forward form to make it easy for the user to initate contact.
+* The contact section includes a form with both required and non-required fields/options where the user can include *First name*, *Last name*, *E-mail*, *Topic (Recording, Mixing, Mastering, Brainstorming*) and the possibility to sign-up for a *newsletter*. The form includes *submit* and a *reset* button. The aim is to make a very straight-forward form to make it easy for the user to initate contact. When the user submits the form a [form confirmation](#form-confirmation-page) will open.
 
-  - The contact section includes an embedded Google Map which shows were Creative Dreams are located.
+* The contact section includes an embedded Google Map which shows were Creative Dreams are located.
 
-  - The contact section includes social media-links to *Facebook*, *Youtube*, *Instagram*, *Spotify* and *Apple Music*.
+* Below the Gogle Map social media links to *Facebook*, *Youtube*, *Instagram*, *Spotify* and *Apple Music* are included. Phone number and adress to Creative Dreams is included as well.
 
 ![Contact](TBD) TBD
 
-- __The Footer__ 
+### Footer Section
 
-  - The footer section includes copyright information and links to *Facebook*, *Youtube*, *Instagram*, *Spotify* and *Apple Music*.
+* The footer section includes Creative Dreams copyright information.
 
-  - It's important that the social media-links are included in the footer even if they also are included in the contact session. The reason is to highlight the importance of the social media interaction to the user.
+![Footer](TBD) TBD
+
+### Form Confirmation Page
+
+* The form confirmation page will inform the user that the form successfully has been sumbitted with the text *Thank you! We have receieved your message and will get back to you as soon as possible! Click here to get back to the main page!* The main menu is also visible so the user easily can get back to the main page (*back-button in browser not needed*)
 
 ![Footer](TBD) TBD
 
 ### Features Left to Implement
 
-In the future it would have been interesting to implement a hamburger-menu function when users are on a tablet / phone.
+* Implement of hambugrer-menu when users are on a tablet / phone.
+* Online Mastering tool (upload sound files that is being masterered through AI technique).
+* Implement chat with Creative Dreams staff through the homepage.
+* Implement Carousel function on Hero Section.
+
+# Technologies Used
+
+## Languages
+
+* [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
+* [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+* [Javascript](https://www.javascript.com/) - provides extra functionality on the site (top navigation bar)
+
+## Frameworks, Libraries & Software
+
+* [Adobe Photoshop](https://www.adobe.com/se/products/photoshop.html) - used to resize the pictures on the site.
+* [Am I Responsive](https://ui.dev/amiresponsive) - used to create presentation of responsive design.
+* [Apple Logic Pro](https://www.apple.com/logic-pro/) - used to make audio files in portfolio section.
+* [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
+* [Colormind](http://colormind.io/) - used to create the color palette.
+* [Convertio](https://convertio.co/jpg-webp/) - used to convert png to webp.
+* [Favicon.io](https://www.favicon.io) - used to create favicon for the site.
+* [Font Awesome:](https://fontawesome.com/) - used to import icons to the website.
+* [Github](https://github.com/) - used to host and edit the website.
+* [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+* [Google Fonts](https://fonts.google.com/) - used to import fonts to the website.
+* [Google Maps](https://www.google.com/maps) - used to embed map with Creative Studios location.
+* [Jquery](https://jquery.com/) - used to implement highlight function on top navigation after being clicked.
+* [Lighthouse](https://developers.google.com/web) - used to test performance of site.
+* [Shutterstock](https://www.shutterstock.com/sv/) - used to get video clips to the site.
+* [TinyPNG](https://tinypng.com/) - used to compress images.
+* [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - used to validate the sites accessibility
 
 ## Testing
 

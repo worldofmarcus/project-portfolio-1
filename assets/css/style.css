@@ -23,7 +23,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
-    color: rgba(26, 26, 26, .7);
+    color: #5F5F5F;
 }
 
 object,
@@ -51,7 +51,7 @@ audio {
 h1,
 h2,
 h3 {
-    color: rgba(26, 26, 26, .7);
+    color: #5F5F5F;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -80,8 +80,6 @@ a {
     border-radius: 20px;
 }
 
-
-
 span {
     font-style: italic;
 }
@@ -106,7 +104,7 @@ header {
     width: 1280px;
     z-index: 1;
     position: fixed;
-    background-color: #fff;
+    background-color:#FFF;
 }
 
 #logo {
@@ -134,16 +132,13 @@ header {
     transition: 0.5s;
 }
 
-
-
 .top-navigation a:hover {
     text-decoration: underline;
 }
 
-.top-navigation nav a:focus,
 li.active {
-    background-color: rgba(26, 26, 26, .7);
-    color: rgb(255, 255, 255);
+    background-color: #5F5F5F;
+    color: #FFF;
 }
 
 /* hero section */
@@ -165,7 +160,7 @@ li.active {
     font-size: 180%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.7);
+    color: #BBBBBB;
     letter-spacing: 4px;
     width: 800px;
     height: 250px;
@@ -180,7 +175,7 @@ li.active {
 #about-us {
     min-height: 300px;
     max-width: 100%;
-    background-color: #eaeaea;
+    background-color: #F3F3F3;
     border-radius: 20px;
 }
 
@@ -204,7 +199,7 @@ li.active {
 #our-services {
     min-height: 580px;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #F3F3F3;
     border-radius: 20px;
 }
 
@@ -231,7 +226,7 @@ li.active {
 #portfolio {
     min-height: 550px;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #F3F3F3;
     border-radius: 20px;
 }
 
@@ -289,7 +284,7 @@ li.active {
 #contact {
     min-height: 1400px;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #F3F3F3;
     border-radius: 20px;
 }
 
@@ -310,8 +305,8 @@ li.active {
 .contact-form {
     margin: 0 auto;
     text-align: left;
-    color: rgba(26, 26, 26, .7);
-    background-color: #eaeaea;
+    color: #5F5F5F;
+    background-color: #F3F3F3;
     max-width: 480px;
     min-height: 500px;
     padding: 30px;
@@ -326,7 +321,7 @@ li.active {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid rgba(26, 26, 26, .7);
+    border: 1px solid #5F5F5F;
     border-radius: 5px;
 }
 
@@ -350,15 +345,16 @@ li.active {
     padding: 15px;
     text-align: center;
     font-size: 100%;
-    background-color: rgba(60, 60, 60, 0.1);
-    color: rgba(26, 26, 26, .7);
+    background-color: #F3F3F3;
+    border: 1px solid #5F5F5F;
+    color: #5F5F5F;
     margin-right: 5px;
 
 }
 
 .submit-button:hover {
-    background-color: rgba(26, 26, 26, .7);
-    color: rgb(255, 255, 255);
+    background-color: #5F5F5F;
+    color: #FFF;
 }
 
 .social-media-list {
