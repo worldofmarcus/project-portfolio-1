@@ -73,7 +73,7 @@ The color scheme chosen for Creative Dreams is based on different shades of gray
 
 OBS! LÄGG IN DE FAKTISKA FÄRGERNA SOM ANVÄNTS HÄR -> For beast readability and clean look white colour was chosen for the bacgkround, "Black Chocolate #272722" for text. I chose "Light Salmon #FF9F76" colour for hover, buttons and navigation elements to stand out and delicate "Miami Pink #FFD9EA" for sections background. "French Bistre #7A6D5B" colour was used for text in the footer. "Light Gray #D0D2D6" was used for boxes shadow effect and form input hover.
   
-![Colour Palate image](readme/assets/images/colormind_palette.png)
+![Color Palette image](readme/assets/images/colormind_palette.png)
 
 * ### Typography
 The fonts used on the Creative Dreams website are 'Montserrat' and 'Oswald'. Fallback font for both of them is sans-serif.
@@ -204,6 +204,7 @@ The HTML validator results for each page are below:
 
 * Form Confirmation page
 
+  - No errors were returned when passing through the official W3C validator
 
 
 The CSS validator results are below:
@@ -254,13 +255,10 @@ Creative Dreams website was tested on the following browsers on desktop, tablet 
 ## Additional Testing
 
 ###   Accessibility
-[Audioeye.com](http://www.audioeye.com) was used to do a color contrast check.
 
-PICTURE
+[WAVE](https://wave.webaim.org/) was used to check accessibility. 0 errors and 31 alerts was found. 17 of the alerts were connected to justify text which in the context isn't a critical issue. The rest of the alerts was connected to the video/audio (lack of synchronized captions and transcripts) which isn't critical in this context.
 
-[WAVE](https://wave.webaim.org/) was used to check accessibility. X errors and X alerts.
-
-PICTURE
+![WAVE Result](readme/assets/images/wave_result.png)
 
 ### Lighthouse
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools was used to test the website for *Performance*, *Accessibility*, *Best Practices* and *SEO*.
@@ -275,14 +273,6 @@ PICTURE
 
 **2022-07-16**
 - Bug: When changing to @media 950px and and below the logo isn't 100% centered. I tried to fix it by removing letter-spacing on the font awesome-symbol, it got better but didn't solve the problem fully. It look's good enough but I need to check this later on in the project. 
-
-### Validator Testing
-
-- HTML
-  - No errors were returned when passing through the official W3C validator
- 
- - CSS
-  - No errors were found when passing through the official (Jigsaw) validator
 
 ### Unfixed Bugs
 
