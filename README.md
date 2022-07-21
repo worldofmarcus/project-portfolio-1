@@ -196,6 +196,7 @@ The features on the Creative Dreams website will help the users to understand wh
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - used to test performance of site.
 * [Responsive Design Checker](https://www.responsivedesignchecker.com/) - used for responsiveness check.
 * [Shutterstock](https://www.shutterstock.com/sv/) - used to get video clips to the site.
+* [Tailorbrands](https://studio.tailorbrands.com/) - used to create client logos to the site.
 * [TinyPNG](https://tinypng.com/) - used to compress images.
 * [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - used to validate the sites accessibility.
 
