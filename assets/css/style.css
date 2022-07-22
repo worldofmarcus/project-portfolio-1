@@ -476,11 +476,11 @@ li.active {
 @media screen and (max-width: 640px) {
 
     html {
-        scroll-padding-top: 135px;
+        scroll-padding-top: 145px;
     }
 
     header {
-        height: 135px;
+        height: 145px;
 
     }
 
@@ -560,7 +560,7 @@ li.active {
         font-size: 90%;
         width: 280px;
         height: 270px;
-        top: 150px;
+        top: 160px;
         left: 30px;
     }
 
