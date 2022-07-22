@@ -37,7 +37,7 @@ form {
 }
 
 header {
-    max-width: 100%
+    max-width: 100%;
 }
 
 audio {
@@ -502,7 +502,7 @@ li.active {
         height: 250px;
         top: 200px;
         left: 30px;
-        transition: 0.5s
+        transition: 0.5s;
     }
 
     .about-us-grid-element,

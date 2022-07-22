@@ -185,7 +185,6 @@ The features on the Creative Dreams website will help the users to understand wh
 * [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
 * [Colormind](http://colormind.io/) - used to create the color palette.
 * [Convertio](https://convertio.co/jpg-webp/) - used to convert png to webp.
-* [Favicon.io](https://www.favicon.io) - used to create favicon for the site.
 * [Font Awesome:](https://fontawesome.com/) - used to import icons to the website.
 * [Github](https://github.com/) - used to host and edit the website.
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
@@ -306,7 +305,9 @@ Additional testing of the site was conducted mainly by people outside of the sof
 * Bug: When changing to @media 950px and and below the logo isn't 100% centered. I tried to fix it by removing letter-spacing on the font awesome-symbol, it got better but didn't solve the problem fully. It look's good enough but I need to check this later on in the project.  **2022-07-16** Bug fixed, the problem was the padding property (*changed to 0*).
 
 ### Unfixed Bugs
-* 2022-07-20 No known bugs
+* 2022-07-20 When clicking the menu items on the form confirmation page the Javascript highlight function doesn't work (the highlight doesn't remain when coming back to index.html), it only works within the homepage (index.html). No big issue why I choose to leave it as it is in this project.
+
+* 2022-07-22 When clicking menu items they get highlighted when you click within the specifik link area and not only when you click directly on the link. Minor issue why I choose to leave it as it is in this project.
 
 [Back to top](<#table-of-content>)
 ## Deployment
