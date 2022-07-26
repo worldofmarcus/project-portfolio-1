@@ -395,6 +395,6 @@ To create a local clone of your repository, follow these steps:
 # Acknowledgements
 The Creative Dreams site was completed as the Portfolio Project #1 (*HTML&CSS*) for the Full Stack Software Development Diploma at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for relevant feedback during the project.
 
-*Marcus Eriksson 2022.*
+*Marcus Eriksson 2022-07-26.*
 
 [Back to top](<#table-of-content>)
